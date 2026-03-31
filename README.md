@@ -1,2 +1,2 @@
-# TWICE-DA: A Hybrid Transformer-CNN Architecture with Deformable Attention
+# TWICE-DA: A Hybrid Transformer-CNN Architecture with Multi-Scale Deformable Attention
 Work in progress...
