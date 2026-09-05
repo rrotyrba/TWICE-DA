@@ -189,7 +189,8 @@ Download **CIFAR-100** and **Caltech-256**. Update the dataset paths in *configs
 
 ### 3. Training
 
-To train the model run *main_twice.py*. To switch between datasets, change the key in *main_twice.py* (e.g., *cfg = json.load(f)['cifar100']* or *cfg = json.load(f)['caltech']*).
+To train the model run *main_twice.py*.  
+To switch between datasets, change the key in *main_twice.py* (e.g., *cfg = json.load(f)['cifar100']* or *cfg = json.load(f)['caltech']*).
 
 ### 4. Testing
 
