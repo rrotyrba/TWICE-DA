@@ -202,6 +202,6 @@ You can download our checkpoints to evaluate the results or fine-tune them on yo
 
 | Model | Dataset | Download |
 | :--- | :---: | :---: |
-| **TWICE-DA** | CIFAR-100 | [Google Drive](#) |
-| **TWICE-DA** | Caltech-256 | [Google Drive](#) |
+| **TWICE-DA** | CIFAR-100 | [Yandex Disk](https://disk.yandex.ru/d/LfEQADacjp0siQ) |
+| **TWICE-DA** | Caltech-256 | [Yandex Disk](#) |
 
