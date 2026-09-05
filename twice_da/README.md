@@ -109,3 +109,6 @@ The hyperparameters and implementation details of the TWICE-DA-T architecture ar
     </tr>
   </tbody>
 </table>
+
+## Future Work
+In the future we plan to extend the TWICE-DA family with Tiny (T), Small (S), and Large (L) model variants and provide ImageNet-pretrained weights for broader use as a general-purpose visual backbone.
