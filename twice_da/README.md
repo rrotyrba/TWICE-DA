@@ -4,3 +4,5 @@ This repository is the official implementation of **[TWICE-DA: Transformer With 
 
 TWICE-DA is designed as a **universal visual feature extractor** for a wide range of computer vision tasks.  
 In this repository, we evaluate the effectiveness of the TWICE-DA encoder as a visual backbone for **image classification**.
+
+## Architecture
