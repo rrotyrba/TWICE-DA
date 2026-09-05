@@ -131,7 +131,7 @@ We conducted comparative experiments on image classification datasets of varying
 | MiT-B1 | 13,3M | 1,6G | 77,77 | 63,49 |
 | Swin-T | 27,7M | 4,3G | 76,21 | 63,92 |
 | Twins-SVT-S | 23,7M | 2,8G | 75,94 | 63,13 |
-| CvT-13 [97] | 19,7M | 4,0G | 77,10 | 66,43 |
+| CvT-13 | 19,7M | 4,0G | 77,10 | 66,43 |
 | **TWICE-DA (OG)** | **13,1M** | **1,82G** | **80,76** | **74,05** |
 | **TWICE-DA (MSOG)** | **13,1M** | **1,83G** | **80,98** | **75,26** |
 
