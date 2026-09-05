@@ -12,5 +12,9 @@ An overview of the encoder architecture is presented in the figure below.
   <img src="assets/twice-da.png" height="700">
 </p>
 
-**Key features:**  
-1. Instead of the typical **Patchify Stem**, which relies on a single convolutional layer to partition the input into patches, TWICE-DA employs a **Convolutional Stem** consisting of two consecutive convolutional layers with a stride of 2. This design enables a more gradual reduction of the feature map resolution while preserving more important visual details, which is particularly beneficial for **dense prediction tasks**.
+The hybrid nature of TWICE-DA is achieved through a substantial modification of the standard Transformer block, incorporating the following key architectural components:
+1. **Multi-Scale Perception Unit (MSPU)** employs multiple parallel convolutional branches to extract local features at different spatial scales. It is placed before the self-attention mechanism to enhance positional information about object locations and introduce stronger convolutional inductive biases into the model.
+2. **[Efficient Channel Attention (ECA)](https://arxiv.org/pdf/1910.03151)** dynamically identifies the most informative feature channels, enhancing important representations while suppressing less relevant ones.
+3. **[Deformable Multi-Head Attention (DMHA)](https://arxiv.org/pdf/2309.01430)** dynamically samples a limited number of relevant spatial positions for each token using learnable offsets. This allows the model to effectively capture global context while significantly reducing the computational cost compared to vanilla MHSA.
+4. **ConvFFNeXt** is a lightweight variant of the feed-forward network (FFN), in which a depthwise convolution is placed before the FFN layers, forming a more computationally efficient ConvNeXt-inspired block.
+5. **Batch Normalization** is used instead of Layer Normalization. Experimental results demonstrate that the use of Batch Normalization in TWICE-DA improves inference efficiency by approximately 15%, while also providing faster convergence and improved classification accuracy.
