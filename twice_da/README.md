@@ -135,6 +135,10 @@ We conducted comparative experiments on image classification datasets of varying
 | **TWICE-DA (OG)** | **13,1M** | **1,82G** | **80,76** | **74,05** |
 | **TWICE-DA (MSOG)** | **13,1M** | **1,83G** | **80,98** | **75,26** |
 
+### Results
+- TWICE-DA achieves competitive performance with all compared models, slightly underperforming only MSCAN-S while maintaining a substantially more lightweight architecture.  
+- The Transformer-based models MiT, Swin, and Twins achieve lower classification accuracy, suggesting that training Transformer-based architectures from scratch can be more challenging on relatively small-scale datasets.  
+- We also evaluated different offset generators and demonstrated that the proposed Multi-Scale Offset Generator (MSOG) consistently outperforms the baseline Offset Generator (OG), confirming the effectiveness of the proposed multi-scale feature aggregation strategy.
 
 ## Future Work
 In the future we plan to extend the TWICE-DA family with Tiny (T), Small (S), and Large (L) model variants and provide ImageNet-pretrained weights for broader use as a general-purpose visual backbone.
