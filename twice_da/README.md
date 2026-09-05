@@ -25,3 +25,6 @@ We also propose a modification of the standard DMHA by introducing a **Multi-Sca
 The standard **Offset Generator (OG)** used in DMHA is implemented as a simple convolutional neural network, as illustrated in the figure below. However, this design has several limitations. In particular, the use of convolutions with a fixed kernel size limits the ability of the offset generator to effectively capture information at different levels of spatial detail. Moreover, processing large feature maps with such convolutions can result in increased computational costs.
 
 To address these limitations, we introduce the **Multi-Scale Offset Generator (MSOG)**, which performs multi-scale feature processing through pre-aggregation of features. This enables the generation of more informative and accurate spatial offsets while maintaining linear computational complexity with respect to the number of input feature-map channels.
+<p align="center">
+  <img src="assets/dmha and generators.png" height="700">
+</p>
