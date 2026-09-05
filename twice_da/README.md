@@ -34,7 +34,7 @@ In this work, we consider the **TWICE-DA (T)** Tiny variant of the proposed arch
 
 The hyperparameters and implementation details of the TWICE-DA-T architecture are presented in the table below.
 
-| Этап | Размер выхода | Параметры |
+| Stage | Output shape | Params |
 | :--- | :---: | :--- |
 | **Stage 1** | $\frac{H}{4} \times \frac{W}{4}$ | $D = 3$, $G = 1$,<br>$C = 64$, $k = [3, 7, 21]$,<br>$R = 8$, $h = [9, 15]$,<br>$H = 2$, $E = 2$. |
 | **Stage 2** | $\frac{H}{8} \times \frac{W}{8}$ | $D = 3$, $G = 2$,<br>$C = 128$, $k = [3, 7, 15]$,<br>$R = 4$, $h = [5, 11]$,<br>$H = 4$, $E = 2$. |
