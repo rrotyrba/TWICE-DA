@@ -33,3 +33,10 @@ To address these limitations, we introduce the **Multi-Scale Offset Generator (M
 In this work, we consider the **TWICE-DA (T)** Tiny variant of the proposed architecture.
 
 The hyperparameters and implementation details of the TWICE-DA-T architecture are presented in the table below.
+
+| Этап | Размер выхода | Параметры |
+| :--- | :---: | :--- |
+| **Stage 1** | $\frac{H}{4} \times \frac{W}{4}$ | $D = 3$, $G = 1$,<br>$C = 64$, $k = [3, 7, 21]$,<br>$R = 8$, $h = [9, 15]$,<br>$H = 2$, $E = 2$. |
+| **Stage 2** | $\frac{H}{8} \times \frac{W}{8}$ | $D = 3$, $G = 2$,<br>$C = 128$, $k = [3, 7, 15]$,<br>$R = 4$, $h = [5, 11]$,<br>$H = 4$, $E = 2$. |
+| **Stage 3** | $\frac{H}{16} \times \frac{W}{16}$ | $D = 6$, $G = 4$,<br>$C = 256$, $k = [3, 7, 11]$,<br>$R = 2$, $h = [3, 7]$,<br>$H = 8$, $E = 2$. |
+| **Stage 4** | $\frac{H}{32} \times \frac{W}{32}$ | $D = 3$, $G = 8$,<br>$C = 512$, $k = [3, 5, 7]$,<br>$R = 1$, $h = [3, 5]$,<br>$H = 16$, $E = 2$. |
