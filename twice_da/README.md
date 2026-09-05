@@ -34,9 +34,78 @@ In this work, we consider the **TWICE-DA (T)** Tiny variant of the proposed arch
 
 The hyperparameters and implementation details of the TWICE-DA-T architecture are presented in the table below.
 
-| Этап | Размер выхода | Параметры | |
-| :--- | :---: | :--- | :--- |
-| **Stage 1** | $\frac{H}{4} \times \frac{W}{4}$ | $D = 3$,<br>$C = 64$,<br>$R = 8$,<br>$H = 2$, | $G = 1$,<br>$k = [3, 7, 21]$,<br>$h = [9, 15]$,<br>$E = 2$. |
-| **Stage 2** | $\frac{H}{8} \times \frac{W}{8}$ | $D = 3$,<br>$C = 128$,<br>$R = 4$,<br>$H = 4$, | $G = 2$,<br>$k = [3, 7, 15]$,<br>$h = [5, 11]$,<br>$E = 2$. |
-| **Stage 3** | $\frac{H}{16} \times \frac{W}{16}$ | $D = 6$,<br>$C = 256$,<br>$R = 2$,<br>$H = 8$, | $G = 4$,<br>$k = [3, 7, 11]$,<br>$h = [3, 7]$,<br>$E = 2$. |
-| **Stage 4** | $\frac{H}{32} \times \frac{W}{32}$ | $D = 3$,<br>$C = 512$,<br>$R = 1$,<br>$H = 16$, | $G = 8$,<br>$k = [3, 5, 7]$,<br>$h = [3, 5]$,<br>$E = 2$. |
+<table>
+  <thead>
+    <tr>
+      <th>Этап</th>
+      <th>Размер выхода</th>
+      <th colspan="2" align="center">Параметры</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Stage 1</b></td>
+      <td align="center">$\frac{H}{4} \times \frac{W}{4}$</td>
+      <td>
+        $D = 3$,<br>
+        $C = 64$,<br>
+        $R = 8$,<br>
+        $H = 2$,
+      </td>
+      <td>
+        $G = 1$,<br>
+        $k = [3, 7, 21]$,<br>
+        $h = [9, 15]$,<br>
+        $E = 2$.
+      </td>
+    </tr>
+    <tr>
+      <td><b>Stage 2</b></td>
+      <td align="center">$\frac{H}{8} \times \frac{W}{8}$</td>
+      <td>
+        $D = 3$,<br>
+        $C = 128$,<br>
+        $R = 4$,<br>
+        $H = 4$,
+      </td>
+      <td>
+        $G = 2$,<br>
+        $k = [3, 7, 15]$,<br>
+        $h = [5, 11]$,<br>
+        $E = 2$.
+      </td>
+    </tr>
+    <tr>
+      <td><b>Stage 3</b></td>
+      <td align="center">$\frac{H}{16} \times \frac{W}{16}$</td>
+      <td>
+        $D = 6$,<br>
+        $C = 256$,<br>
+        $R = 2$,<br>
+        $H = 8$,
+      </td>
+      <td>
+        $G = 4$,<br>
+        $k = [3, 7, 11]$,<br>
+        $h = [3, 7]$,<br>
+        $E = 2$.
+      </td>
+    </tr>
+    <tr>
+      <td><b>Stage 4</b></td>
+      <td align="center">$\frac{H}{32} \times \frac{W}{32}$</td>
+      <td>
+        $D = 3$,<br>
+        $C = 512$,<br>
+        $R = 1$,<br>
+        $H = 16$,
+      </td>
+      <td>
+        $G = 8$,<br>
+        $k = [3, 5, 7]$,<br>
+        $h = [3, 5]$,<br>
+        $E = 2$.
+      </td>
+    </tr>
+  </tbody>
+</table>
