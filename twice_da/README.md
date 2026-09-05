@@ -195,3 +195,13 @@ To switch between datasets, change the key in *main_twice.py* (e.g., *cfg = json
 ### 4. Testing
 
 To evaluate the trained model, open *testing/testing.ipynb*. Specify your path to the model checkpoint in the *ckpt_path* variable and run the cells.
+
+### 5. Pre-trained Checkpoints
+
+You can download our checkpoints to evaluate the results or fine-tune them on your own task:
+
+| Model | Dataset | Download |
+| :--- | :---: | :---: |
+| **TWICE-DA** | CIFAR-100 | [Google Drive / Hugging Face](#) |
+| **TWICE-DA** | Caltech-256 | [Google Drive / Hugging Face](#) |
+
