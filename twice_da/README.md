@@ -28,3 +28,8 @@ To address these limitations, we introduce the **Multi-Scale Offset Generator (M
 <p align="center">
   <img src="assets/dmha and generators.png" height="700">
 </p>
+
+## Model Configuration
+In this work, we consider the **TWICE-DA (T)** Tiny variant of the proposed architecture.
+
+The hyperparameters and implementation details of the TWICE-DA-T architecture are presented in the table below.
