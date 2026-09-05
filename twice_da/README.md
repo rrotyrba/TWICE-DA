@@ -110,14 +110,14 @@ The hyperparameters and implementation details of the TWICE-DA-T architecture ar
   </tbody>
 </table>
 
-- $L_i$ — number of TWICE blocks;
+- $D_i$ — number of TWICE blocks;
 - $C_i$ — number of channels in each TWICE block;
-- $r_i$ — reduction factor for the deformable point grid;
-- $h_i$ — number of attention heads in the DMHA module;
-- $g_i$ — number of deformable point groups in the DMHA module;
+- $R_i$ — reduction factor for the deformable point grid;
+- $H_i$ — number of attention heads in the DMHA module;
+- $G_i$ — number of deformable point groups in the DMHA module;
 - $k_i$ — kernel sizes of the convolutional layers in the MSPU module;
-- $k_i^{\mathrm{offset}}$ — kernel sizes of the convolutional layers in the Multi-Scale Offset Generator;
-- $e_i$ — expansion ratio of the ConvFFNeXt module.
+- $h_i$ — kernel sizes of the convolutional layers in the Multi-Scale Offset Generator;
+- $E_i$ — expansion ratio of the ConvFFNeXt module.
 
 ## Future Work
 In the future we plan to extend the TWICE-DA family with Tiny (T), Small (S), and Large (L) model variants and provide ImageNet-pretrained weights for broader use as a general-purpose visual backbone.
