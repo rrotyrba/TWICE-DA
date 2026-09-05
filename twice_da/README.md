@@ -194,4 +194,4 @@ To switch between datasets, change the key in *main_twice.py* (e.g., *cfg = json
 
 ### 4. Testing
 
-o evaluate the trained model, open *testing/testing.ipynb*. Specify your path to the model checkpoint in the *ckpt_path* variable and run the cells..
+To evaluate the trained model, open *testing/testing.ipynb*. Specify your path to the model checkpoint in the *ckpt_path* variable and run the cells.
