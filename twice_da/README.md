@@ -6,3 +6,6 @@ TWICE-DA is designed as a **universal visual feature extractor** for a wide rang
 In this repository, we evaluate the effectiveness of the TWICE-DA encoder as a visual backbone for **image classification**.
 
 ## Architecture
+<p align="center">
+  <img src="assets/twice-da.png" width="900">
+</p>
