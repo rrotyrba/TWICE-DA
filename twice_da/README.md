@@ -173,7 +173,24 @@ If you find TWICE-DA useful in your research, please consider citing our work:
 ```
 ## Getting Started
 
+### 1. Installation
+
+Clone the repository and install the dependencies:
+
 ```bash
-git clone [https://github.com/rrotyrba/TWICE-DA.git](https://github.com/rrotyrba/TWICE-DA.git)
+git clone https://github.com/rrotyrba/TWICE-DA.git
 cd TWICE-DA
 pip install -r requirements.txt
+```
+
+### 2. Dataset Preparation
+
+Download **CIFAR-100** and **Caltech-256**. Update the dataset paths in *configs/twice_config.json* to match your local paths.
+
+### 3. Training
+
+To train the model run *main_twice.py*. To switch between datasets, change the key in *main_twice.py* (e.g., *cfg = json.load(f)['cifar100']* or *cfg = json.load(f)['caltech']*).
+
+### 4. Testing
+
+o evaluate the trained model, open *testing/testing.ipynb*. Specify your path to the model checkpoint in the *ckpt_path* variable and run the cells..
