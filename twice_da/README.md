@@ -143,3 +143,20 @@ We conducted comparative experiments on image classification datasets of varying
 
 ## Future Work
 In the future we plan to extend the TWICE-DA family with Tiny (T), Small (S), and Large (L) model variants and provide ImageNet-pretrained weights for broader use as a general-purpose visual backbone.
+
+## Citing
+If you find TWICE-DA useful in your research, please consider citing our work:
+
+@article{otyrba2026twice,
+  author  = {Otyrba, Rostislav Ruslanovich and Sirota, Alexander Anatolyevich},
+  title   = {Hybrid architecture of transformer and convolutional neural network with a multi-scale deformable attention mechanism for semantic segmentation task},
+  journal = {Computer Optics},
+  year    = {2026},
+  volume  = {50},
+  number  = {1},
+  pages   = {1686},
+  doi     = {10.18287/COJ1686}
+}
+
+Если вы используете TWICE-DA в своих исследованиях, пожалуйста, процитируйте нашу работу:
+Отырба, Р. Р. Гибридная архитектура трансформера и свёрточной нейронной сети с многомасштабным механизмом деформируемого внимания в задаче семантической сегментации / Р. Р. Отырба, А. А. Сирота // Компьютерная оптика. – 2026. – Т. 50, № 1. – DOI: 10.18287/COJ1686.
