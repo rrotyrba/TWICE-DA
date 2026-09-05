@@ -110,6 +110,7 @@ The hyperparameters and implementation details of the TWICE-DA-T architecture ar
   </tbody>
 </table>
 
+The parameters at each stage *i* are defined as follows:
 - $D_i$ — number of TWICE blocks;
 - $C_i$ — number of channels in each TWICE block;
 - $R_i$ — reduction factor for the deformable point grid;
