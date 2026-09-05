@@ -7,5 +7,5 @@ In this repository, we evaluate the effectiveness of the TWICE-DA encoder as a v
 
 ## Architecture
 <p align="center">
-  <img src="assets/twice-da.png" height="900">
+  <img src="assets/twice-da.png" height="700">
 </p>
