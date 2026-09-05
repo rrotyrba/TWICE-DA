@@ -202,6 +202,6 @@ You can download our checkpoints to evaluate the results or fine-tune them on yo
 
 | Model | Dataset | Download |
 | :--- | :---: | :---: |
-| **TWICE-DA** | CIFAR-100 | [Google Drive / Hugging Face](#) |
-| **TWICE-DA** | Caltech-256 | [Google Drive / Hugging Face](#) |
+| **TWICE-DA** | CIFAR-100 | [Google Drive](#) |
+| **TWICE-DA** | Caltech-256 | [Google Drive](#) |
 
