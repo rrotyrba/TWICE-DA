@@ -29,7 +29,7 @@ To address these limitations, we introduce the **Multi-Scale Offset Generator (M
   <img src="assets/dmha and generators.png" height="700">
 </p>
 
-## Model Configuration
+## Details of the Implementation
 In this work, we consider the **TWICE-DA (T)** Tiny variant of the proposed architecture.
 
 The hyperparameters and implementation details of the TWICE-DA-T architecture are presented in the table below.
@@ -119,6 +119,22 @@ The parameters at each stage *i* are defined as follows:
 - $k_i$ — kernel sizes of the convolutional layers in the MSPU module;
 - $h_i$ — kernel sizes of the convolutional layers in the Multi-Scale Offset Generator;
 - $E_i$ — expansion ratio of the ConvFFNeXt module.
+
+## Experiments
+We conducted comparative experiments on image classification datasets of varying complexity, including **CIFAR-100** and **Caltech-256**, and compared TWICE-DA with several state-of-the-art CNN and Transformer-based architectures. The experimental results are presented in the table below.
+
+| Model | Params | FLOPs | CIFAR-100 | Caltech-256 |
+| :--- | :---: | :---: | :---: | :---: |
+| EfficientNetV2-S | 20,5M | 2,8G | 78,49 | 72,87 |
+| ConvNeXt-T | 28,0M | 4,4G | 74,37 | 64,44 |
+| MSCAN-S | 13,6M | 2,6G | 81,00 | 75,91 |
+| MiT-B1 | 13,3M | 1,6G | 77,77 | 63,49 |
+| Swin-T | 27,7M | 4,3G | 76,21 | 63,92 |
+| Twins-SVT-S | 23,7M | 2,8G | 75,94 | 63,13 |
+| CvT-13 [97] | 19,7M | 4,0G | 77,10 | 66,43 |
+| **TWICE-DA (OG)** | **13,1M** | **1,82G** | **80,76** | **74,05** |
+| **TWICE-DA (MSOG)** | **13,1M** | **1,83G** | **80,98** | **75,26** |
+
 
 ## Future Work
 In the future we plan to extend the TWICE-DA family with Tiny (T), Small (S), and Large (L) model variants and provide ImageNet-pretrained weights for broader use as a general-purpose visual backbone.
