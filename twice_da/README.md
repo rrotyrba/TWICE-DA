@@ -11,5 +11,6 @@ An overview of the encoder architecture is presented in the figure below.
 <p align="center">
   <img src="assets/twice-da.png" height="700">
 </p>
+
 **Key features:**
 1. Instead of the typical **Patchify Stem**, which relies on a single convolutional layer to partition the input into patches, TWICE-DA employs a **Convolutional Stem** consisting of two consecutive convolutional layers with a stride of 2. This design enables a more gradual reduction of the feature map resolution while preserving more important visual details, which is particularly beneficial for **dense prediction tasks**.
