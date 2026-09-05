@@ -170,3 +170,10 @@ If you find TWICE-DA useful in your research, please consider citing our work:
   number={1},
   doi={10.18287/COJ1686}
 }
+```
+## Getting Started
+
+```bash
+git clone [https://github.com/rrotyrba/TWICE-DA.git](https://github.com/rrotyrba/TWICE-DA.git)
+cd TWICE-DA
+pip install -r requirements.txt
