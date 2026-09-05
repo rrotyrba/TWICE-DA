@@ -10,4 +10,4 @@ This repository currently includes code and models for the following tasks:
 
 >Change Detection: Included in this repo. See here
 
->One-Shot/Few-Shot Semantic segmentation: Included in this repo. See here
+>One-Shot/Few-Shot Semantic Segmentation: Included in this repo. See here
