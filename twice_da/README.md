@@ -37,9 +37,9 @@ The hyperparameters and implementation details of the TWICE-DA-T architecture ar
 <table>
   <thead>
     <tr>
-      <th>Этап</th>
-      <th>Размер выхода</th>
-      <th colspan="2" align="center">Параметры</th>
+      <th>Stage</th>
+      <th>Output Shape</th>
+      <th colspan="2" align="center">TWICE-DA</th>
     </tr>
   </thead>
   <tbody>
