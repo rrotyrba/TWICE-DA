@@ -39,7 +39,7 @@ The hyperparameters and implementation details of the TWICE-DA-T architecture ar
     <tr>
       <th>Stage</th>
       <th>Output Shape</th>
-      <th colspan="2" align="center">TWICE-DA</th>
+      <th colspan="2" align="center">TWICE-DA (T)</th>
     </tr>
   </thead>
   <tbody>
